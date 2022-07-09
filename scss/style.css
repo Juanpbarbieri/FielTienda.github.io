@@ -1,0 +1,376 @@
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px) {
+  .productoImg {
+    z-index: 0;
+  }
+  .productoImg h1 {
+    color: rgb(36, 36, 128);
+  }
+  .productoImg h2 {
+    color: rgb(36, 36, 128);
+  }
+
+  .serviciosImg {
+    z-index: 0;
+  }
+  .serviciosImg h1 {
+    color: rgb(36, 36, 128);
+  }
+  .serviciosImg h2 {
+    color: rgb(36, 36, 128);
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e9aa2b;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover, a.active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+header .indexImg {
+  background-image: url(../img/intento\ 12222.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header .productoImg {
+  background-image: url(../img/index/productoFinn.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header .contactoImg {
+  background-image: url(../img/serviciosPosible\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header .serviciosImg {
+  background-image: url(../img/index/servicios3257.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header .blogImg {
+  background-image: url(../img/posibleBlog.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header .center h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+header .center h2 {
+  text-align: center;
+}
+header .logo {
+  margin-left: 30px;
+}
+
+nav {
+  height: 90px;
+  width: 100%;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a:hover {
+  color: #e9aa2b;
+  transition: 0.5s;
+}
+nav ul li a {
+  color: black;
+  font-size: 32px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+section {
+  width: 80%;
+  margin: 80px auto;
+}
+section .title {
+  text-align: center;
+}
+section .title h2 {
+  color: rgb(36, 36, 128);
+  font-size: 3rem;
+}
+section .title .line {
+  width: 150px;
+  height: 4px;
+  background: rgb(36, 36, 128);
+  margin: 10px auto;
+  border-radius: 5px;
+}
+section .row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  border: solid 5px rgb(36, 36, 128);
+}
+section .row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+}
+section .row .col p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+section .row .col h3 {
+  font-size: 2rem;
+  color: black;
+}
+section .row .col .ctn {
+  pad: 18px 45px;
+  background: #e9aa2b;
+  border-radius: 20px;
+  color: white;
+  font-size: x-large;
+}
+section .row .col img {
+  width: 80%;
+}
+
+.events {
+  margin-top: 50px;
+}
+.events h4 {
+  font-size: 3vmin;
+  color: blue;
+  margin: 20px auto;
+}
+
+.contactoImg ul li {
+  text-decoration: none;
+}
+.contactoImg .center h1 {
+  margin-top: 1%;
+}
+
+.blogImg ul li {
+  text-decoration: none;
+}
+.blogImg .center h1 {
+  margin-top: 1%;
+}
+
+.piePagina {
+  width: 100%;
+  background-color: rgb(36, 36, 128);
+  margin-top: 0%;
+  color: black;
+}
+
+.piePagina .grupo1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.piePagina .grupo1 .box figure {
+  height: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piePagina .grupo1 .box figure img {
+  width: 150px;
+}
+
+.piePagina .grupo1 .box h3 {
+  color: black;
+  margin-bottom: 25px;
+  text-align: justify;
+  font-size: xx-large;
+}
+
+.piePagina .grupo1 .box p {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.piePagina .grupo1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: black;
+  margin-right: 10px;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.piePagina .grupo1 .red-social a:hover {
+  color: white;
+}
+
+.piePagina .grupo-2 {
+  background-color: #ca8600;
+  padding: 15px 10px;
+  text-align: center;
+  color: black;
+  font-size: x-large;
+}
+
+@media screen and (max-width: 800px) {
+  .piePagina .grupo1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px) {
+  .productoImg {
+    z-index: 0;
+  }
+  .productoImg h1 {
+    color: rgb(36, 36, 128);
+  }
+  .productoImg h2 {
+    color: rgb(36, 36, 128);
+  }
+
+  .serviciosImg {
+    z-index: 0;
+  }
+  .serviciosImg h1 {
+    color: rgb(36, 36, 128);
+  }
+  .serviciosImg h2 {
+    color: rgb(36, 36, 128);
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e9aa2b;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover, a.active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+}
+
+body {
+  background-color: #e9aa2b;
+}/*# sourceMappingURL=style.css.map */

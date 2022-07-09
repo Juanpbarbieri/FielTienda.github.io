@@ -1,0 +1,103 @@
+@import 'colors';
+@import 'media-queries';
+
+ header{
+
+        .indexImg{
+          background-image: url(../img/intento\ 12222.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+
+
+        }
+             .productoImg{
+        background-image: url(../img/index/productoFinn.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+      }
+
+      .contactoImg{
+        background-image: url(../img/serviciosPosible\ \(1\).jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+      }
+
+      .serviciosImg{
+        background-image: url(../img/index/servicios3257.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+      }
+
+      .blogImg{
+        background-image: url(../img/posibleBlog.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+      }
+        .center{
+          h1{
+            text-align: center;
+            font-size: 4rem;
+
+          }
+          h2{
+            text-align: center;
+          }
+        }
+
+        .logo{
+          margin-left: 30px;
+        }
+      }
+
+  nav{
+    height: 90px;
+    width: 100%;
+
+     ul{
+        float: right;
+        margin-right: 20px;
+
+    li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+        a:hover {
+          color: $fondo;
+          transition: 0.5s;
+        }
+
+        a{
+            color: black;
+            font-size: 32px;
+            padding: 7px 13px;
+            border-radius: 3px;
+            text-transform: uppercase;
+
+          }
+    }
+     }
+  }
+
+  .checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+ 
